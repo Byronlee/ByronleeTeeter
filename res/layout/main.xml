@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="170dip"
+        android:scaleType="center"
+        android:layout_marginLeft="58dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/start_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_bg"    
+        android:textColor="#F9F900"   
+        android:text="进入游戏" />
+
+    <Button
+        android:id="@+id/set_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:background="@drawable/button_bg"
+           android:layout_marginTop="30dp"
+           android:textColor="#F9F900"  
+        android:layout_gravity="center"
+        android:text="游戏设置" />
+
+    <Button
+        android:id="@+id/out_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F9F900"  
+         android:background="@drawable/button_bg"
+           android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="退出游戏" />
+    
+       <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:gravity="center"
+        android:text="@string/power"
+        android:textColor="#F9F900"       
+        android:textSize="14sp" />
+
+</LinearLayout>

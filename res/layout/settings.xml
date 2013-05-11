@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" 
+	android:background="@drawable/b_bg" >
+	
+	<ScrollView android:id="@+id/scrollview2"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical" android:paddingTop="60dip"
+		android:paddingBottom="50dip">
+		<LinearLayout android:orientation="vertical"
+		    
+			android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:paddingLeft="15dip" android:paddingRight="15dip">
+			
+			<!-- 定义一个看不见得LinearLayout，然后将焦点设到它上面。 -->
+			<LinearLayout
+        android:focusable="true" android:focusableInTouchMode="true"
+        android:layout_width="0px" android:layout_height="0px"/>
+		    
+		    
+			<CheckBox android:id="@+id/settings_vibrate"
+				android:layout_width="fill_parent" android:layout_height="50dip"
+				android:text="@string/settings_vibrate_summary"></CheckBox>
+			
+			
+			<CheckBox android:id="@+id/settings_sounds"
+				android:layout_width="fill_parent" android:layout_height="50dip"
+				android:text="@string/settings_sounds_summary"></CheckBox>
+			
+			
+			<CheckBox android:id="@+id/settings_showtips"
+				android:layout_width="fill_parent" android:layout_height="50dip"
+				android:text="@string/settings_showtips_summary"></CheckBox>
+			
+			<TextView android:id="@+id/settings_power_controller_title"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:paddingTop="8dip" android:text="@string/settings_velocity_controller_summary"
+				android:textColor="#FFFFFFFF" android:textSize="16sp"></TextView>
+			
+			<SeekBar android:id="@+id/velocityController"
+				android:layout_width="fill_parent" android:layout_height="25dip"
+				android:max="100" android:progress="40" android:secondaryProgress="0"></SeekBar>
+
+			<TextView android:id="@+id/settings_best_record_textview"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:paddingTop="8dip" android:text="@string/settings_best_record_summary"
+				android:textColor="#FFFFFFFF" android:textSize="16sp"></TextView>
+			
+			<TableRow android:id="@+id/options_buttom_tablerow"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:paddingTop="15dip">
+				<Button android:id="@+id/options_okay_button"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					 android:textColor="#ff0000"
+                     android:background="@drawable/button_bg"
+					android:layout_weight="1" android:layout_gravity="center"
+					android:text="@string/settings_ok" android:textSize="16sp" />
+				<Button android:id="@+id/options_tips_button"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					 android:textColor="#ff0000"
+                     android:background="@drawable/button_bg"
+					android:layout_weight="1" android:layout_gravity="center"
+					android:text="@string/settings_tips" android:textSize="16sp" />
+			</TableRow>
+			
+
+		</LinearLayout>
+	</ScrollView>
+	
+</FrameLayout>

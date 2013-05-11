@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/introduce"
+        android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:gravity="center"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:text="@string/introduce"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/begin"
+        
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        
+        android:layout_gravity="center"
+        android:text="开始游戏"
+        android:textColor="#ff0000"
+        android:background="@drawable/button_bg"
+        android:textSize="16sp" />
+    
+    
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:gravity="center"
+        android:text="@string/power"
+        android:textColor="#F9F900"       
+        android:textSize="14sp" />
+    
+    
+
+</LinearLayout>

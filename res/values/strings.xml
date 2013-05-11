@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">ByronleeTeeter</string>
+    <string name="introduce"> ByroneleeTeeter是一款基于安卓重力感应的小游戏通过左右倾斜可以控制游戏主角的移动\n\n碰到游戏顶部或者有尖刺的跳板，会消耗一本分生命值\n\n若落入游戏屏幕下方，或生命值消耗完则结束游戏\n\n通过成功跳过的跳板数或者吃的食物，可以进行等级的提升,得分的提高，同时游戏的难度也会增加
+        </string>
+        <string name="power">Powered By Byronlee</string>
+     <string name="app_name">ByronleeTeeter</string>
+     <string name="settings_vibrate_summary">开启震动效果</string>
+    <string name="settings_sounds_summary">开启声音效果</string>
+    <string name="settings_showtips_summary">开启游戏前的提示信息</string>
+    <string name="settings_velocity_controller_summary">游戏灵敏度调节(迟缓->敏捷)</string>
+    <string name="settings_best_record_summary">您的最高记录:</string>
+    <string name="settings_ok">确定</string> 
+    <string name="settings_tips">提示</string>
+    <string name="click_to_start">开始游戏</string>
+    <string name="gameover_dialog_tip">游戏结束!</string>
+	<string name="gameover_dialog_text_poolguy">可怜的家伙 !</string>
+	<string name="gameover_dialog_text_notbad">还不错嘛 !</string>
+	<string name="gameover_dialog_text_awesome">你真棒 !</string>
+	<string name="gameover_dialog_text_newrecord">个人新记录 !</string>
+	<string name="gameover_dialog_positive_button">重来</string>
+	<string name="gameover_dialog_post_score_button">提交</string>
+	<string name="gameover_dialog_negative_button">返回</string>
+	
+</resources>
